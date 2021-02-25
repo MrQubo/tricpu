@@ -1,0 +1,2 @@
+inf_loop:
+	J	inf_loop
