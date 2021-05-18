@@ -12,9 +12,9 @@ namely, division instruction. In CPU Adventure 2 division was implemented by
 converting from ternary to binary, doing division in binary, and converting back
 to ternary. In this project I've implemented balanced ternary division directly,
 hovewer, balanced ternary division works differently from binary division. Given
-`a` and `b` the algorithm finds `q` and `r` such that `a = q*b + r` and `r` is
-less than or equal to `b` divided by `2`. For example, dividing 7 by 10 gives
-`q = 1` and `r = -3`.
+integers `a` and `b` the algorithm finds integers `q` and `r` such that
+`a = q*b + r` and `abs(r)` is less than or equal to `b / 2`. For example,
+dividing 7 by 10 gives `q = 1` and `r = -3`.
 
 ## Files
 
